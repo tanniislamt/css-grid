@@ -22,3 +22,19 @@
     width: 350px;
     height: 400px;
 }
+
+@media screen and (max-width:1024px){
+    .card{
+    grid-template-columns: repeat(4, 1fr); 
+    }
+ }
+ @media screen and (max-width:768px){
+    .card{
+    grid-template-columns: repeat(3, 1fr); 
+    }
+ }
+ @media screen and (max-width:460px){
+    .card{
+    grid-template-columns: repeat(2, 1fr); 
+    }
+ }
